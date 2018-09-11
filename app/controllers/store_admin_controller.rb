@@ -3,5 +3,5 @@ class StoreAdminController < ActionController::Base
   def home
   end
   def orders
-    layout
+    render layout =>
 end
